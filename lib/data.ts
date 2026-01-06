@@ -1,20 +1,16 @@
 import { IProject } from '@/types';
 
 export const GENERAL_INFO = {
-    email: 'tasmirolislam@gmail.com',
+    email: 'edwinsdjah@gmail.com',
 
     emailSubject: "Let's collaborate on a project",
-    emailBody: 'Hi Tajmirul, I am reaching out to you because...',
-
-    oldPortfolio: 'https://www.legacy.me.toinfinite.dev',
-    upworkProfile: 'https://www.upwork.com/freelancers/tajmirul',
+    emailBody: 'Hi Edwin, I am reaching out to you because...',
 };
 
 export const SOCIAL_LINKS = [
-    { name: 'github', url: 'https://github.com/Tajmirul' },
-    { name: 'linkedin', url: 'https://www.linkedin.com/in/tajmirul' },
-    { name: 'facebook', url: 'https://www.facebook.com/tajmirul.2000' },
-    { name: 'Old Version', url: GENERAL_INFO.oldPortfolio },
+    { name: 'github', url: 'https://github.com/edwinsdjah' },
+    { name: 'linkedin', url: 'https://www.linkedin.com/in/edwinsdjah' },
+    { name: 'facebook', url: 'https://www.facebook.com/edwinsdjah' },
 ];
 
 export const MY_STACK = {
@@ -66,10 +62,6 @@ export const MY_STACK = {
             icon: '/logo/node.png',
         },
         {
-            name: 'NestJS',
-            icon: '/logo/nest.svg',
-        },
-        {
             name: 'Express.js',
             icon: '/logo/express.png',
         },
@@ -96,14 +88,6 @@ export const MY_STACK = {
         {
             name: 'Git',
             icon: '/logo/git.png',
-        },
-        {
-            name: 'Docker',
-            icon: '/logo/docker.svg',
-        },
-        {
-            name: 'AWS',
-            icon: '/logo/aws.png',
         },
     ],
 };
@@ -286,23 +270,28 @@ export const PROJECTS: IProject[] = [
 
 export const MY_EXPERIENCE = [
     {
-        title: 'Software Engineer (Frontend)',
-        company: 'Strativ AB',
-        duration: 'Dec 2024 - Present',
+        title: 'Front End Developer',
+        company: 'Transcosmos Indonesia',
+        duration: 'Sept 2022 - Present',
     },
     {
-        title: 'Frontend Developer',
-        company: 'Epikcoders',
-        duration: 'Oct 2023 - Nov 2024',
+        title: 'Web Administrator',
+        company: 'Transcosmos Indonesia',
+        duration: 'Sept 2019 - Sept 2022',
     },
     {
-        title: 'Frontend Engineer',
-        company: 'Anchorblock Technology',
-        duration: 'Oct 2022 - Sep 2023',
+        title: 'General Affair (Branch Support Officer)',
+        company: 'Asuransi Astra',
+        duration: 'Nov 2018 - May 2019',
     },
     {
-        title: 'Frontend Developer (Part-time)',
-        company: 'Branex IT',
-        duration: 'Jan 2022 - Oct 2022',
+        title: 'Digital Marketing Content Officer',
+        company: 'Thinktub Indonesia',
+        duration: 'Oct 2017 - Oct 2018',
+    },
+    {
+        title: 'Postpaid Activation Staff',
+        company: 'XL Axiata',
+        duration: 'Sept 2016 - Sept 2017',
     },
 ];
