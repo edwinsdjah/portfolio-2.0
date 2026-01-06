@@ -1,11 +1,11 @@
 import { IProject } from '@/types';
 
-export const GENERAL_INFO = {
-    email: 'edwinsdjah@gmail.com',
+// export const GENERAL_INFO = {
+//     email: 'edwinsdjah@gmail.com',
 
-    emailSubject: "Let's collaborate on a project",
-    emailBody: 'Hi Edwin, I am reaching out to you because...',
-};
+//     emailSubject: "Let's collaborate on a project",
+//     emailBody: 'Hi Edwin, I am reaching out to you because...',
+// };
 
 export const SOCIAL_LINKS = [
     { name: 'github', url: 'https://github.com/edwinsdjah' },
@@ -100,7 +100,7 @@ export const PROJECTS: IProject[] = [
         year: 2025,
         description: `
       A complete agency portfolio platform built for Electro EV to showcase their services, blog content, and product offerings. <br/> <br/>
-      
+
       Key Features:<br/>
       <ul>
         <li>🛠️ Service Display System: Interactive service showcase with synchronized sliders</li>
@@ -109,7 +109,7 @@ export const PROJECTS: IProject[] = [
         <li>📱 Fully Responsive: Optimized for all device sizes</li>
         <li>⚡ Fast Performance: Optimized Next.js frontend with ISR (Incremental Static Regeneration)</li>
       </ul><br/>
-      
+
       Technical Highlights:
       <ul>
         <li>Implemented complex slider synchronization logic using Swiper.js</li>
