@@ -1,4 +1,5 @@
 import { IProject } from '@/types';
+import { IClients } from '@/types';
 
 export const GENERAL_INFO = {
     email: 'edwinsdjah@gmail.com',
@@ -11,6 +12,12 @@ export const SOCIAL_LINKS = [
     { name: 'github', url: 'https://github.com/edwinsdjah' },
     { name: 'linkedin', url: 'https://www.linkedin.com/in/edwinsdjah' },
     { name: 'facebook', url: 'https://www.facebook.com/edwinsdjah' },
+];
+
+export const MY_CLIENTS: IClients[] = [
+    { name: 'All Nippon Airways', logo: '' },
+    { name: 'Transcosmos Japan', logo: '' },
+    { name: 'Insinho Putra Pratama', logo: '' },
 ];
 
 export const MY_STACK = {

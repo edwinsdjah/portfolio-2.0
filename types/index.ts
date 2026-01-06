@@ -28,3 +28,8 @@ export interface IProject {
     liveUrl?: string;
     sourceCode?: string;
 }
+
+export interface IClients {
+    name: string;
+    logo: string;
+}
