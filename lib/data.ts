@@ -9,9 +9,13 @@ export const GENERAL_INFO = {
 };
 
 export const SOCIAL_LINKS = [
-    { name: 'github', url: 'https://github.com/edwinsdjah' },
-    { name: 'linkedin', url: 'https://www.linkedin.com/in/edwinsdjah' },
-    { name: 'facebook', url: 'https://www.facebook.com/edwinsdjah' },
+    { name: 'github', url: 'https://github.com/edwinsdjah', icon: '' },
+    {
+        name: 'linkedin',
+        url: 'https://www.linkedin.com/in/edwinsdjah',
+        icon: '',
+    },
+    { name: 'facebook', url: 'https://www.facebook.com/edwinsdjah', icon: '' },
 ];
 
 export const MY_CLIENTS: IClients[] = [
@@ -101,12 +105,13 @@ export const MY_STACK = {
 
 export const PROJECTS: IProject[] = [
     {
-        title: 'Electro EV',
-        slug: 'electro-ev',
+        title: 'ANA - Hotel Recommendation',
+        slug: 'hotel-ana',
+        client: 'All Nippon Airways',
         liveUrl: 'https://electroev.co.uk/',
         year: 2025,
         description: `
-      A complete agency portfolio platform built for Electro EV to showcase their services, blog content, and product offerings. <br/> <br/>
+      A Page to show Hotel Recommendation based on price in Japan <br/> <br/>
 
       Key Features:<br/>
       <ul>
@@ -154,8 +159,9 @@ export const PROJECTS: IProject[] = [
         ],
     },
     {
-        title: 'Epikcart',
-        slug: 'epikcart',
+        title: 'ANA - Golden Week',
+        slug: 'goldenweek-ana',
+        client: 'All Nippon Airways',
         techStack: [
             'React',
             'Redux',
@@ -175,7 +181,7 @@ export const PROJECTS: IProject[] = [
             '/projects/images/epikcart-5.png',
         ],
         liveUrl: 'https://demo.epikcart.siphertech.com/',
-        year: 2023,
+        year: 2024,
         description: `Epikcart is a feature-rich, scalable e-commerce platform tailored for large businesses. It features dynamic product filtering, multi-language support with RTL, advanced inventory management, order tracking, and refund systems, offering a comprehensive solution for multi-vendor operations.`,
         role: `As the frontend developer in a team of five, I: <br/>
         - Built the frontend from scratch using React, Redux, RTK Query, and Tailwind CSS.<br/>
@@ -184,8 +190,9 @@ export const PROJECTS: IProject[] = [
         - Delivered a responsive, user-friendly interface in collaboration with the UI/UX designer.`,
     },
     {
-        title: 'Resume Roaster',
-        slug: 'resume-roaster',
+        title: 'PT Insinho Putra Pratama',
+        slug: 'insinho',
+        client: 'Insinho Putra Pratama',
         techStack: [
             'GPT-4',
             'Next.js',
@@ -210,8 +217,9 @@ export const PROJECTS: IProject[] = [
         - Implemented complex SQL queries, including one to identify the top two resumes based on user points.`,
     },
     {
-        title: 'Real Estate',
-        slug: 'property-pro',
+        title: 'Transcosmos Japan Staff Introduction',
+        slug: 'transcosmos',
+        client: 'Transcosmos Japan',
         techStack: [
             'React.js',
             'Redux',
