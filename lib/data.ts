@@ -1,11 +1,11 @@
 import { IProject } from '@/types';
 
-// export const GENERAL_INFO = {
-//     email: 'edwinsdjah@gmail.com',
+export const GENERAL_INFO = {
+    email: 'edwinsdjah@gmail.com',
 
-//     emailSubject: "Let's collaborate on a project",
-//     emailBody: 'Hi Edwin, I am reaching out to you because...',
-// };
+    emailSubject: "Let's collaborate on a project",
+    emailBody: 'Hi Edwin, I am reaching out to you because...',
+};
 
 export const SOCIAL_LINKS = [
     { name: 'github', url: 'https://github.com/edwinsdjah' },
