@@ -1,6 +1,7 @@
 'use client';
 import ArrowAnimation from '@/components/ArrowAnimation';
 import Button from '@/components/Button';
+import Socials from '@/components/Socials';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
@@ -53,6 +54,7 @@ const Banner = () => {
                         experience in building high-performance, scalable, and
                         responsive web solutions.
                     </p>
+                    <Socials className="mt-9 banner-button slide-up-and-fade" />
                     <Button
                         as="link"
                         target="_blank"

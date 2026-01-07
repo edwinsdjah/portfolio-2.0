@@ -19,9 +19,10 @@ export const SOCIAL_LINKS = [
 ];
 
 export const MY_CLIENTS: IClients[] = [
-    { name: 'All Nippon Airways', logo: '' },
-    { name: 'Transcosmos Japan', logo: '' },
-    { name: 'Insinho Putra Pratama', logo: '' },
+    { name: 'All Nippon Airways', logo: '/logo/ana.png' },
+    { name: 'Transcosmos Japan', logo: '/logo/transcosmos.svg' },
+    { name: 'Insinho Putra Pratama', logo: '/logo/insinho.png' },
+    { name: '7 Bank', logo: '/logo/sbank.png' },
 ];
 
 export const MY_STACK = {
@@ -53,6 +54,10 @@ export const MY_STACK = {
         {
             name: 'GSAP',
             icon: '/logo/gsap.png',
+        },
+        {
+            name: 'Adobe Experience Manager',
+            icon: '/logo/aem.png',
         },
         {
             name: 'Framer Motion',
@@ -109,50 +114,27 @@ export const PROJECTS: IProject[] = [
         slug: 'hotel-ana',
         client: 'All Nippon Airways',
         liveUrl: 'https://electroev.co.uk/',
-        year: 2025,
+        year: 2024,
         description: `
       A Page to show Hotel Recommendation based on price in Japan <br/> <br/>
 
       Key Features:<br/>
       <ul>
-        <li>🛠️ Service Display System: Interactive service showcase with synchronized sliders</li>
-        <li>✍️ Blog Management: SEO-friendly blog with categorization and search</li>
-        <li>🛒 Product Catalog: Organized product display with filtering capabilities</li>
         <li>📱 Fully Responsive: Optimized for all device sizes</li>
-        <li>⚡ Fast Performance: Optimized Next.js frontend with ISR (Incremental Static Regeneration)</li>
       </ul><br/>
 
       Technical Highlights:
       <ul>
-        <li>Implemented complex slider synchronization logic using Swiper.js</li>
-        <li>Customized Payload CMS admin panel for intuitive content management</li>
-        <li>Developed reusable UI components with shadcn for design consistency</li>
-        <li>Configured efficient data fetching strategies in Next.js</li>
+        <li>Slicing From Figma Design into Production Ready Website</li>
+        <li>Fetch Flight Schedule from ANA Backend into Frontend</li>
+        <li>Developed responsive components for Display</li>
       </ul>
       `,
         role: `
-      Full-Stack Developer <br/>
-      Owned the entire development lifecycle:
-      <ul>
-        <li>✅ Backend: Configured Payload CMS with custom collections for services, blogs, and products</li>
-        <li>🎨 Frontend: Built all UI components using Tailwind CSS and shadcn</li>
-        <li>🔄 State Management: Implemented client-side data fetching and caching</li>
-        <li>🖥️ CMS Customization: Created admin interfaces for content editors</li>
-        <li>🚀 Deployment: Set up CI/CD pipeline for Vercel hosting</li>
-        <li>🧩 Third-Party Integration: Added Swiper.js for interactive sliders</li>
-      </ul>
+      Front End Developer
       `,
-        techStack: [
-            'Next.js',
-            'Adobe Experience Manager',
-            'Payload CMS',
-            'Tailwind CSS',
-            'shadcn',
-            'Swiper.js',
-            'React Hook Form',
-            'Vercel',
-        ],
-        thumbnail: '/projects/thumbnail/mti-electronics.webp',
+        techStack: ['Javascript', 'Adobe Experience Manager'],
+        thumbnail: '/projects/thumbnail/ana-hotel-capture.png',
         longThumbnail: '/projects/long/mti-electronics.webp',
         images: [
             '/projects/images/mti-electronics-1.webp',
@@ -163,15 +145,7 @@ export const PROJECTS: IProject[] = [
         title: 'ANA - Golden Week',
         slug: 'goldenweek-ana',
         client: 'All Nippon Airways',
-        techStack: [
-            'React',
-            'Redux',
-            'React i18n',
-            'Tailwind CSS',
-            'Framer Motion',
-            'debouncing',
-            'Api Integration',
-        ],
+        techStack: ['Javascript', 'Adobe Experience Manager'],
         thumbnail: '/projects/thumbnail/epikcart.jpg',
         longThumbnail: '/projects/long/epikcart.jpg',
         images: [

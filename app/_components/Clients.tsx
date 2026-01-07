@@ -52,13 +52,10 @@ const Clients = () => {
                                 <Image
                                     src={item.logo}
                                     alt={item.name}
-                                    width={40}
+                                    width={100}
                                     height={40}
-                                    className="h-10 w-auto object-contain"
+                                    className="h-10 w-auto object-contain brightness-0 invert opacity-90"
                                 />
-                                <span className="text-2xl whitespace-nowrap">
-                                    {item.name}
-                                </span>
                             </div>
                         ))}
                     </div>
