@@ -2,7 +2,7 @@ import React from 'react';
 import { SocialIcon } from 'react-social-icons';
 
 interface SocialsProps {
-    className: 'string';
+    className: string;
 }
 
 const Socials: React.FC<SocialsProps> = ({ className }) => {
