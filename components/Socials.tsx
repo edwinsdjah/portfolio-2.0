@@ -1,7 +1,11 @@
 import React from 'react';
 import { SocialIcon } from 'react-social-icons';
 
-const Socials = ({ className }) => {
+interface SocialsProps {
+    className: 'string';
+}
+
+const Socials: React.FC<SocialsProps> = ({ className }) => {
     return (
         <div className="flex md:flex-row gap-4">
             <SocialIcon
