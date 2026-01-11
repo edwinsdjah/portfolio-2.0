@@ -210,7 +210,7 @@ export const PROJECTS: IProject[] = [
             '/projects/images/property-pro-3.png',
         ],
         liveUrl: 'https://demo.propertypro.siphertech.com/',
-        year: 2023,
+        year: 2022,
         description:
             'PropertyPro is a real estate management platform offering users a seamless experience to explore, manage, and view property listings. The application emphasizes accessibility and responsive design, ensuring a smooth interface across devices.',
         role: `As the frontend developer, I:<br/>
