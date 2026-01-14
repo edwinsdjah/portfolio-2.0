@@ -6,6 +6,7 @@ import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import React from 'react';
+import Image from 'next/image';
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
@@ -66,7 +67,13 @@ const Banner = () => {
                         Hire Me
                     </Button>
                 </div>
-
+                <Image
+                    src={'/avatar.png'}
+                    alt="avatar"
+                    width={400}
+                    height={400}
+                    className="mb-20 brightness-55 contrast-85 slide-up-and-fade"
+                />
                 <div className="md:absolute bottom-[10%] right-[4%] flex md:flex-row gap-4 md:gap-8 text-center md:text-right">
                     <div className="slide-up-and-fade">
                         <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">

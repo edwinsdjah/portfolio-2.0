@@ -99,7 +99,6 @@ const ProjectList = () => {
             setSelectedProject(null);
             return;
         }
-
         setSelectedProject(slug);
     };
 

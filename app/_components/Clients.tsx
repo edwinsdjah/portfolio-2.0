@@ -1,64 +1,73 @@
 'use client';
-
 import SectionTitle from '@/components/SectionTitle';
 import { MY_CLIENTS } from '../../lib/data';
-import { useGSAP } from '@gsap/react';
-import gsap from 'gsap';
 import Image from 'next/image';
-import React, { useRef } from 'react';
+import React from 'react';
+import Slider from 'react-slick';
 
-gsap.registerPlugin(useGSAP);
+// slick styles
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const Clients = () => {
-    const containerRef = useRef<HTMLDivElement>(null);
+    const settings = {
+        infinite: true,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1,
+        speed: 5000,
+        cssEase: 'linear',
+        arrows: false,
+        pauseOnHover: false,
+        swipe: false,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: { slidesToShow: 4 },
+            },
+            {
+                breakpoint: 768,
+                settings: { slidesToShow: 3 },
+            },
+            {
+                breakpoint: 480,
+                settings: { slidesToShow: 2 },
+            },
+        ],
+    };
 
-    useGSAP(
-        () => {
-            const track = containerRef.current?.querySelector(
-                '.marquee-track',
-            ) as HTMLElement;
-
-            if (!track) return;
-
-            const distance = track.scrollWidth / 2;
-
-            gsap.fromTo(
-                track,
-                { x: 0 },
-                {
-                    x: -distance,
-                    duration: 20,
-                    ease: 'none',
-                    repeat: -1,
-                },
-            );
-        },
-        { scope: containerRef },
-    );
+    // 🔑 DUPLIKASI DATA AGAR SLIDER SELALU BISA JALAN
+    const MIN_SLIDES = 6; // aman untuk semua breakpoint
+    const clients =
+        MY_CLIENTS.length >= MIN_SLIDES
+            ? MY_CLIENTS
+            : Array.from({
+                  length: Math.ceil(MIN_SLIDES / MY_CLIENTS.length),
+              }).flatMap(() => MY_CLIENTS);
 
     return (
-        <section id="my-clients" ref={containerRef}>
+        <section id="my-clients" className="py-section">
             <div className="container">
                 <SectionTitle title="Clients" />
 
-                {/* SINGLE ROW MARQUEE */}
+                {/* MARQUEE VIA SLICK */}
                 <div className="overflow-hidden">
-                    <div className="marquee-track flex gap-x-14 w-max">
-                        {[...MY_CLIENTS, ...MY_CLIENTS].map((item, idx) => (
-                            <div
-                                key={`${item.name}-${idx}`}
-                                className="flex items-center gap-3.5"
-                            >
-                                <Image
-                                    src={item.logo}
-                                    alt={item.name}
-                                    width={100}
-                                    height={40}
-                                    className="h-10 w-auto object-contain brightness-0 invert opacity-90"
-                                />
+                    <Slider {...settings}>
+                        {clients.map((item, idx) => (
+                            <div key={`${item.name}-${idx}`}>
+                                <div className="flex items-center justify-center">
+                                    <Image
+                                        src={item.logo}
+                                        alt={item.name}
+                                        width={140}
+                                        height={40}
+                                        className="h-20 w-50     object-contain brightness-0 invert opacity-90"
+                                    />
+                                </div>
                             </div>
                         ))}
-                    </div>
+                    </Slider>
                 </div>
             </div>
         </section>

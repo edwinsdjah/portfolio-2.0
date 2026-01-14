@@ -9,8 +9,6 @@ import 'slick-carousel/slick/slick-theme.css';
 import Footer from '@/components/Footer';
 import ScrollProgressIndicator from '@/components/ScrollProgressIndicator';
 import ParticleBackground from '@/components/ParticleBackground';
-import Navbar from '@/components/Navbar';
-import CustomCursor from '@/components/CustomCursor';
 import Preloader from '../components/Preloader';
 import StickyEmail from './_components/StickyEmail';
 import { GoogleAnalytics } from '@next/third-parties/google';
@@ -72,11 +70,8 @@ export default function RootLayout({
                         Frontend dev? I&apos;ll help you polish your resume —
                         completely free.
                     </a> */}
-                    <Navbar />
                     <main>{children}</main>
                     <Footer />
-
-                    <CustomCursor />
                     <Preloader />
                     <ScrollProgressIndicator />
                     <ParticleBackground />

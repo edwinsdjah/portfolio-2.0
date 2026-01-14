@@ -157,24 +157,18 @@ export const PROJECTS: IProject[] = [
         ],
         liveUrl: 'https://demo.epikcart.siphertech.com/',
         year: 2024,
-        description: `Epikcart is a feature-rich, scalable e-commerce platform tailored for large businesses. It features dynamic product filtering, multi-language support with RTL, advanced inventory management, order tracking, and refund systems, offering a comprehensive solution for multi-vendor operations.`,
-        role: `As the frontend developer in a team of five, I: <br/>
-        - Built the frontend from scratch using React, Redux, RTK Query, and Tailwind CSS.<br/>
-        - Developed dynamic filtering logic for the product search page with admin-configurable parameters.<br/>
-        - Integrated multi-language support with React i18n, including RTL handling.<br/>
-        - Delivered a responsive, user-friendly interface in collaboration with the UI/UX designer.`,
+        description: `Golden Week is a page to show the Available Tourism Location Spot to Customer who wants to visit Japan on Golden Week Holiday across Japan Archipelago`,
+        role: `As a frontend developer: <br/>
+        - Built the frontend from scratch using HTML, CSS and Javascript.<br/>
+        - Work alongside Japanese Client throughout the project with Design Brief.<br/>
+        - Integrated parameter from Backend to display Available trips and Ticket Price using Adobe Experience Manager.<br/>
+        - Delivered a responsive, user-friendly interface in collaboration with the Japanese designer.`,
     },
     {
         title: 'PT Insinho Putra Pratama',
         slug: 'insinho',
         client: 'Insinho Putra Pratama',
-        techStack: [
-            'GPT-4',
-            'Next.js',
-            'Postgressql',
-            'Prisma',
-            'Tailwind CSS',
-        ],
+        techStack: ['Bootstrap', 'Javascript'],
         thumbnail: '/projects/thumbnail/resume-roaster.jpg',
         longThumbnail: '/projects/long/resume-roaster.jpg',
         images: [
@@ -185,23 +179,18 @@ export const PROJECTS: IProject[] = [
         liveUrl: 'https://resume-roaster.vercel.app/',
         year: 2023,
         description:
-            'Resume Roaster is a web application designed to provide tailored resume feedback and professional writing services. Built with Next.js, PostgreSQL, Prisma, and Tailwind CSS, it integrates GPT-4 for AI-powered recommendations. The platform also includes peer-to-peer reviews with a points-based system, fostering a collaborative and engaging experience. Targeting freshers, experienced professionals, and programmers, it helps optimize resumes for job-specific success.',
-        role: `As the sole developer and business owner, I:<br/>
-        - Designed and developed the platform end-to-end using Next.js, PostgreSQL, Prisma, and Tailwind CSS.<br/>
-        - Integrated GPT-4 for AI-driven feedback and insights.<br/>
-        - Implemented complex SQL queries, including one to identify the top two resumes based on user points.`,
+            'Insinho is an Oil and Gas Contractor Company based in Bekasi, West Java, Indonesia',
+        role: `As the sole developer and Front End Developer:<br/>
+        - Designed and developed the platform end-to-end using Bootstrap.<br/>
+        - Create Usable Components for all of the Company Profile pages.<br/>
+        - Design Minimalist and Modern Website to attract Visitor and Clients.<br/>
+        - Deploy the Website and configure sitemap to make the Website is detected by Google Crawler`,
     },
     {
         title: 'Transcosmos Japan Staff Introduction',
         slug: 'transcosmos',
         client: 'Transcosmos Japan',
-        techStack: [
-            'React.js',
-            'Redux',
-            'Tailwind CSS',
-            'React i18n',
-            'Framer Motion',
-        ],
+        techStack: ['SCSS', 'Javascript', 'Git'],
         thumbnail: '/projects/thumbnail/property-pro.jpg',
         longThumbnail: '/projects/long/property-pro.jpg',
         images: [
@@ -210,14 +199,36 @@ export const PROJECTS: IProject[] = [
             '/projects/images/property-pro-3.png',
         ],
         liveUrl: 'https://demo.propertypro.siphertech.com/',
-        year: 2022,
+        year: 2025,
         description:
-            'PropertyPro is a real estate management platform offering users a seamless experience to explore, manage, and view property listings. The application emphasizes accessibility and responsive design, ensuring a smooth interface across devices.',
-        role: `As the frontend developer, I:<br/>
-        - Built the frontend using React, Redux, RTK Query, Framer Motion, and Tailwind CSS.<br/>
-        - Integrated dynamic state management for efficient handling of property data.<br/>
-        - Implemented multi-language support with React i18n to cater to diverse audiences.<br/>
-        - Enhanced user interaction with animations and transitions using Framer Motion.`,
+            'This is a website to introduce the Staffs on Transcosmos Japan Digital Marketing Division for Period of 2025',
+        role: `As the frontend developer:<br/>
+        - Built the frontend using Vanilla HTML, CSS, JS.<br/>
+        - Create Feature to search and find details of each member by using simple Json to maintain Performance.<br/>
+        - Work alongside Japan Client Web Designer to create UI and UX for the Website.<br/>
+        - Enhanced user interaction with responsive re-usable components.`,
+    },
+    {
+        title: 'Ushalli - Daily Prayer App',
+        slug: 'ushalli',
+        client: 'Self Project',
+        techStack: ['Next JS', 'React', 'Git', 'Mongo DB', 'Node JS'],
+        thumbnail: '/projects/thumbnail/property-pro.jpg',
+        longThumbnail: '/projects/long/property-pro.jpg',
+        images: [
+            '/projects/images/property-pro-1.png',
+            '/projects/images/property-pro-2.png',
+            '/projects/images/property-pro-3.png',
+        ],
+        liveUrl: 'https://demo.propertypro.siphertech.com/',
+        year: 2025,
+        description:
+            'Ushalli is an PWA App for Daily Prayer Reminder with Push Notification, Nearest Masjid Finder by Route, and Daily Preach Videos.',
+        role: `As the frontend developer and Business Owner:<br/>
+        - Built the whole entire App from scratch using Next JS and MongoDB as Database.<br/>
+        - Create Feature to search and find details of each member by using simple Json to maintain Performance.<br/>
+        - Work alongside Japan Client Web Designer to create UI and UX for the Website.<br/>
+        - Enhanced user interaction with responsive re-usable components.`,
     },
 ];
 
