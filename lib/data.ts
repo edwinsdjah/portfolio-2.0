@@ -113,7 +113,8 @@ export const PROJECTS: IProject[] = [
         title: 'ANA - Hotel Recommendation',
         slug: 'hotel-ana',
         client: 'All Nippon Airways',
-        liveUrl: 'https://electroev.co.uk/',
+        liveUrl:
+            'https://www.ana.co.jp/ja/jp/domestic/theme/hotel_recommended/',
         year: 2024,
         description: `
       A Page to show Hotel Recommendation based on price in Japan <br/> <br/>
@@ -130,15 +131,14 @@ export const PROJECTS: IProject[] = [
         <li>Developed responsive components for Display</li>
       </ul>
       `,
-        role: `
-      Front End Developer
-      `,
+        role: `As a frontend developer and Collaboration in agency Team: `,
         techStack: ['Javascript', 'Adobe Experience Manager'],
         thumbnail: '/projects/thumbnail/ana-hotel-capture.png',
         longThumbnail: '/projects/long/mti-electronics.webp',
         images: [
-            '/projects/images/mti-electronics-1.webp',
-            '/projects/images/mti-electronics-2.webp',
+            '/projects/images/anahotel_1.png',
+            '/projects/images/anahotel_2.png',
+            '/projects/images/anahotel_3.png',
         ],
     },
     {
@@ -146,19 +146,40 @@ export const PROJECTS: IProject[] = [
         slug: 'goldenweek-ana',
         client: 'All Nippon Airways',
         techStack: ['Javascript', 'Adobe Experience Manager'],
-        thumbnail: '/projects/thumbnail/epikcart.jpg',
-        longThumbnail: '/projects/long/epikcart.jpg',
+        thumbnail: '/projects/thumbnail/anagw_1.png',
+        longThumbnail: '/projects/thumbnail/anagw_1.png',
         images: [
-            '/projects/images/epikcart-1.png',
-            '/projects/images/epikcart-2.png',
-            '/projects/images/epikcart-3.png',
-            '/projects/images/epikcart-4.png',
-            '/projects/images/epikcart-5.png',
+            '/projects/images/anagw_1.png',
+            '/projects/images/anagw_2.png',
+            '/projects/images/anagw_3.png',
+            '/projects/images/anagw_4.png',
         ],
-        liveUrl: 'https://demo.epikcart.siphertech.com/',
+        liveUrl: 'https://www.ana.co.jp/ja/jp/domestic/theme/gw/',
         year: 2024,
         description: `Golden Week is a page to show the Available Tourism Location Spot to Customer who wants to visit Japan on Golden Week Holiday across Japan Archipelago`,
-        role: `As a frontend developer: <br/>
+        role: `As a frontend developer and Collaboration in agency Team: <br/>
+        - Built the frontend from scratch using HTML, CSS and Javascript.<br/>
+        - Work alongside Japanese Client throughout the project with Design Brief.<br/>
+        - Integrated parameter from Backend to display Available trips and Ticket Price using Adobe Experience Manager.<br/>
+        - Delivered a responsive, user-friendly interface in collaboration with the Japanese designer.`,
+    },
+    {
+        title: 'ANA - Aomori Travel',
+        slug: 'aomori',
+        client: 'All Nippon Airways',
+        techStack: ['Javascript', 'Adobe Experience Manager'],
+        thumbnail: '/projects/thumbnail/aomori_1.png',
+        longThumbnail: '/projects/long/property-pro.jpg',
+        images: [
+            '/projects/images/aomori_1.png',
+            '/projects/images/aomori_2.png',
+            '/projects/images/aomori_3.png',
+        ],
+        liveUrl:
+            'https://www.ana.co.jp/ja/jp/domestic/theme/here_we_go_japan/aomori/',
+        year: 2024,
+        description: `This is a page to show several Travel Locations in Aomori Japan`,
+        role: `As a frontend developer and Collaboration in agency Team: <br/>
         - Built the frontend from scratch using HTML, CSS and Javascript.<br/>
         - Work alongside Japanese Client throughout the project with Design Brief.<br/>
         - Integrated parameter from Backend to display Available trips and Ticket Price using Adobe Experience Manager.<br/>
@@ -169,14 +190,13 @@ export const PROJECTS: IProject[] = [
         slug: 'insinho',
         client: 'Insinho Putra Pratama',
         techStack: ['Bootstrap', 'Javascript'],
-        thumbnail: '/projects/thumbnail/resume-roaster.jpg',
+        thumbnail: '/projects/thumbnail/insinho_1.png',
         longThumbnail: '/projects/long/resume-roaster.jpg',
         images: [
-            '/projects/images/resume-roaster-1.png',
-            '/projects/images/resume-roaster-2.png',
-            '/projects/images/resume-roaster-3.png',
+            '/projects/images/insinho_1.png',
+            '/projects/images/insinho_2.png',
         ],
-        liveUrl: 'https://resume-roaster.vercel.app/',
+        liveUrl: 'https://insinhoputrapratama.com/',
         year: 2023,
         description:
             'Insinho is an Oil and Gas Contractor Company based in Bekasi, West Java, Indonesia',
@@ -186,31 +206,31 @@ export const PROJECTS: IProject[] = [
         - Design Minimalist and Modern Website to attract Visitor and Clients.<br/>
         - Deploy the Website and configure sitemap to make the Website is detected by Google Crawler`,
     },
-    {
-        title: 'Transcosmos Japan Staff Introduction',
-        slug: 'transcosmos',
-        client: 'Transcosmos Japan',
-        techStack: ['SCSS', 'Javascript', 'Git'],
-        thumbnail: '/projects/thumbnail/property-pro.jpg',
-        longThumbnail: '/projects/long/property-pro.jpg',
-        images: [
-            '/projects/images/property-pro-1.png',
-            '/projects/images/property-pro-2.png',
-            '/projects/images/property-pro-3.png',
-        ],
-        liveUrl: 'https://demo.propertypro.siphertech.com/',
-        year: 2025,
-        description:
-            'This is a website to introduce the Staffs on Transcosmos Japan Digital Marketing Division for Period of 2025',
-        role: `As the frontend developer:<br/>
-        - Built the frontend using Vanilla HTML, CSS, JS.<br/>
-        - Create Feature to search and find details of each member by using simple Json to maintain Performance.<br/>
-        - Work alongside Japan Client Web Designer to create UI and UX for the Website.<br/>
-        - Enhanced user interaction with responsive re-usable components.`,
-    },
+
     {
         title: 'Ushalli - Daily Prayer App',
         slug: 'ushalli',
+        client: 'Self Project',
+        techStack: ['Next JS', 'React', 'Git', 'Mongo DB', 'Node JS'],
+        thumbnail: '/projects/thumbnail/ushalli_1.png',
+        longThumbnail: '/projects/long/property-pro.jpg',
+        images: [
+            '/projects/images/ushalli_1.png',
+            '/projects/images/ushalli_2.png',
+        ],
+        liveUrl: 'https://ushalli.vercel.app/',
+        year: 2025,
+        description:
+            'Ushalli is an PWA App for Daily Prayer Reminder with Push Notification, Nearest Masjid Finder by Route, and Daily Preach Videos.',
+        role: `As the frontend developer and Business Owner:<br/>
+        - Built the whole entire App from scratch using Next JS and MongoDB as Database.<br/>
+        - Create Feature to Push Notification for user Device<br/>
+        - Create Feature to search for nearest mosque and calculate the distance from User Location<br/>
+        - Integrating the app with third parties API, (Al-adhan, GeoApify, Leaflet).`,
+    },
+    {
+        title: 'Layar Tancap - Netflix Clone to Watch Movie Online',
+        slug: 'layartancap',
         client: 'Self Project',
         techStack: ['Next JS', 'React', 'Git', 'Mongo DB', 'Node JS'],
         thumbnail: '/projects/thumbnail/property-pro.jpg',
@@ -220,14 +240,36 @@ export const PROJECTS: IProject[] = [
             '/projects/images/property-pro-2.png',
             '/projects/images/property-pro-3.png',
         ],
-        liveUrl: 'https://demo.propertypro.siphertech.com/',
+        liveUrl: 'https://layartancap.vercel.app/',
         year: 2025,
         description:
-            'Ushalli is an PWA App for Daily Prayer Reminder with Push Notification, Nearest Masjid Finder by Route, and Daily Preach Videos.',
+            'Layar Tancap is an PWA App for Watch Movie by Streaming Online with mimicking the Netflix Design',
         role: `As the frontend developer and Business Owner:<br/>
         - Built the whole entire App from scratch using Next JS and MongoDB as Database.<br/>
-        - Create Feature to search and find details of each member by using simple Json to maintain Performance.<br/>
-        - Work alongside Japan Client Web Designer to create UI and UX for the Website.<br/>
+        - Create Feature to search and find details of Movies and Series.<br/>
+        - Create Feature to watch movie by sync to Superembed Movie API<br/>
+        - Enhanced user interaction with responsive re-usable components.`,
+    },
+    {
+        title: 'Cuap Cuap - Ed Personal Website',
+        slug: 'cuapcuap',
+        client: 'Self Project',
+        techStack: ['Next JS', 'React', 'Git', 'Mongo DB', 'Node JS'],
+        thumbnail: '/projects/thumbnail/property-pro.jpg',
+        longThumbnail: '/projects/long/property-pro.jpg',
+        images: [
+            '/projects/images/property-pro-1.png',
+            '/projects/images/property-pro-2.png',
+            '/projects/images/property-pro-3.png',
+        ],
+        liveUrl: 'https://cuapcuap.vercel.app/',
+        year: 2025,
+        description:
+            'This is my first Fullstack Project and i decide to create Personal Website for me to express my writings',
+        role: `As the frontend developer and Business Owner:<br/>
+        - Built the whole entire App from scratch using Next JS and MongoDB as Database.<br/>
+        - Create Admin Page to Manage the contents.<br/>
+        - Create own API to Serve the content's request.<br/>
         - Enhanced user interaction with responsive re-usable components.`,
     },
 ];
