@@ -72,7 +72,7 @@ const Banner = () => {
                     alt="avatar"
                     width={400}
                     height={400}
-                    className="mb-10 brightness-55 mr-0 contrast-85 slide-up-and-fade max-md:self-end"
+                    className="my-10 brightness-55 mr-0 contrast-85 slide-up-and-fade max-md:self-end"
                 />
             </div>
         </section>
