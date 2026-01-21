@@ -38,7 +38,7 @@ const Banner = () => {
         <section className="relative overflow-hidden" id="banner">
             <ArrowAnimation />
             <div
-                className="container min-h-[100dvh] min-h-[530px] max-md:pb-10 flex justify-between items-start md:items-center max-md:flex-col-reverse"
+                className="container min-h-[100vh] min-h-[530px] max-md:pb-10 flex justify-between items-start md:items-center max-md:flex-col-reverse"
                 ref={containerRef}
             >
                 <div className="max-md:grow max-md:flex flex-col max-md:justify-start justify-center items-start max-w-[544px]">

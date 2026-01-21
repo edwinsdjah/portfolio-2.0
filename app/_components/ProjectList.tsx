@@ -110,17 +110,18 @@ const ProjectList = () => {
                 <div className="group/projects relative" ref={containerRef}>
                     {selectedProject !== null && (
                         <div
-                            className="max-md:hidden absolute right-0 top-0 z-[1] pointer-events-none w-[200px] xl:w-[350px] aspect-[3/4] overflow-hidden opacity-0"
+                            className="max-md:hidden absolute right-0 top-0 z-[1] pointer-events-none w-[200px] xl:w-[350px] opacity-0"
                             ref={imageContainer}
                         >
                             {PROJECTS.map((project) => (
                                 <Image
+                                    key={project.slug}
                                     src={project.thumbnail}
                                     alt="Project"
-                                    width="400"
-                                    height="500"
+                                    width={400}
+                                    height={500}
                                     className={cn(
-                                        'absolute inset-0 transition-all duration-500 w-full h-full object-cover',
+                                        'absolute inset-0 transition-all duration-500 w-full h-auto object-contain',
                                         {
                                             'opacity-0':
                                                 project.slug !==
@@ -128,7 +129,6 @@ const ProjectList = () => {
                                         },
                                     )}
                                     ref={imageRef}
-                                    key={project.slug}
                                 />
                             ))}
                         </div>
