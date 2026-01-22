@@ -2,17 +2,22 @@
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import React, { useRef } from 'react';
+import { usePreloader } from '@/context/PreloaderContext';
 
 gsap.registerPlugin(useGSAP);
 
 const Preloader = () => {
     const preloaderRef = useRef<HTMLDivElement>(null);
+    const { setDone } = usePreloader();
 
     useGSAP(
         () => {
             const tl = gsap.timeline({
                 defaults: {
                     ease: 'power1.inOut',
+                },
+                onComplete: () => {
+                    setDone(true); // 🔥 SINYAL SELESAI
                 },
             });
 

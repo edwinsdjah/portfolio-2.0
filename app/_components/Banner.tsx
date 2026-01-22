@@ -34,8 +34,18 @@ const Banner = () => {
         { scope: containerRef },
     );
 
+    function createWhatsAppLink() {
+        const phone = '62895325665859';
+        const message = `Hello Edwin,
+I am interested in discussing a potential collaboration or project with you.
+Looking forward to your response.
+Thank you.`;
+
+        return `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+    }
+
     return (
-        <section className="relative overflow-hidden" id="banner">
+        <section className="relative overflow-hidden" id="profile">
             <ArrowAnimation />
             <div
                 className="container min-h-[100vh] max-md:pb-10 flex justify-between items-start md:items-center max-md:flex-col-reverse"
@@ -60,7 +70,7 @@ const Banner = () => {
                         as="link"
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="#"
+                        href={createWhatsAppLink()}
                         variant="primary"
                         className="mt-9 banner-button slide-up-and-fade"
                     >
