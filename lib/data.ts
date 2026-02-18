@@ -109,82 +109,82 @@ export const MY_STACK = {
 };
 
 export const PROJECTS: IProject[] = [
-    {
-        title: 'ANA - Hotel Recommendation',
-        slug: 'hotel-ana',
-        client: 'All Nippon Airways',
-        liveUrl:
-            'https://www.ana.co.jp/ja/jp/domestic/theme/hotel_recommended/',
-        year: 2024,
-        description: `
-      A Page to show Hotel Recommendation based on price in Japan <br/> <br/>
+    // {
+    //     title: 'ANA - Hotel Recommendation',
+    //     slug: 'hotel-ana',
+    //     client: 'All Nippon Airways',
+    //     liveUrl:
+    //         'https://www.ana.co.jp/ja/jp/domestic/theme/hotel_recommended/',
+    //     year: 2024,
+    //     description: `
+    //   A Page to show Hotel Recommendation based on price in Japan <br/> <br/>
 
-      Key Features:<br/>
-      <ul>
-        <li>📱 Fully Responsive: Optimized for all device sizes</li>
-      </ul><br/>
+    //   Key Features:<br/>
+    //   <ul>
+    //     <li>📱 Fully Responsive: Optimized for all device sizes</li>
+    //   </ul><br/>
 
-      Technical Highlights:
-      <ul>
-        <li>Slicing From Figma Design into Production Ready Website</li>
-        <li>Fetch Flight Schedule from ANA Backend into Frontend</li>
-        <li>Developed responsive components for Display</li>
-      </ul>
-      `,
-        role: `As a frontend developer and Collaboration in agency Team: `,
-        techStack: ['Javascript', 'Adobe Experience Manager'],
-        thumbnail: '/projects/thumbnail/ana-hotel-capture.png',
-        longThumbnail: '/projects/long/mti-electronics.webp',
-        images: [
-            '/projects/images/anahotel_1.png',
-            '/projects/images/anahotel_2.png',
-            '/projects/images/anahotel_3.png',
-        ],
-    },
-    {
-        title: 'ANA - Golden Week',
-        slug: 'goldenweek-ana',
-        client: 'All Nippon Airways',
-        techStack: ['Javascript', 'Adobe Experience Manager'],
-        thumbnail: '/projects/thumbnail/anagw_1.png',
-        longThumbnail: '/projects/thumbnail/anagw_1.png',
-        images: [
-            '/projects/images/anagw_1.png',
-            '/projects/images/anagw_2.png',
-            '/projects/images/anagw_3.png',
-            '/projects/images/anagw_4.png',
-        ],
-        liveUrl: 'https://www.ana.co.jp/ja/jp/domestic/theme/gw/',
-        year: 2024,
-        description: `Golden Week is a page to show the Available Tourism Location Spot to Customer who wants to visit Japan on Golden Week Holiday across Japan Archipelago`,
-        role: `As a frontend developer and Collaboration in agency Team: <br/>
-        - Built the frontend from scratch using HTML, CSS and Javascript.<br/>
-        - Work alongside Japanese Client throughout the project with Design Brief.<br/>
-        - Integrated parameter from Backend to display Available trips and Ticket Price using Adobe Experience Manager.<br/>
-        - Delivered a responsive, user-friendly interface in collaboration with the Japanese designer.`,
-    },
-    {
-        title: 'ANA - Aomori Travel',
-        slug: 'aomori',
-        client: 'All Nippon Airways',
-        techStack: ['Javascript', 'Adobe Experience Manager'],
-        thumbnail: '/projects/thumbnail/aomori_1.png',
-        longThumbnail: '/projects/long/property-pro.jpg',
-        images: [
-            '/projects/images/aomori_1.png',
-            '/projects/images/aomori_2.png',
-            '/projects/images/aomori_3.png',
-        ],
-        liveUrl:
-            'https://www.ana.co.jp/ja/jp/domestic/theme/here_we_go_japan/aomori/',
-        year: 2024,
-        description: `This is a page to show several Travel Locations in Aomori Japan`,
-        role: `As a frontend developer and Collaboration in agency Team: <br/>
-        - Built the frontend from scratch using HTML, CSS and Javascript.<br/>
-        - Work alongside Japanese Client throughout the project with Design Brief.<br/>
-        - Integrated parameter from Backend to display Available trips and Ticket Price using Adobe Experience Manager.<br/>
-        - Delivered a responsive, user-friendly interface in collaboration with the Japanese designer.`,
-    },
+    //   Technical Highlights:
+    //   <ul>
+    //     <li>Slicing From Figma Design into Production Ready Website</li>
+    //     <li>Fetch Flight Schedule from ANA Backend into Frontend</li>
+    //     <li>Developed responsive components for Display</li>
+    //   </ul>
+    //   `,
+    //     role: `As a frontend developer and Collaboration in agency Team: `,
+    //     techStack: ['Javascript', 'Adobe Experience Manager'],
+    //     thumbnail: '/projects/thumbnail/ana-hotel-capture.png',
+    //     longThumbnail: '/projects/long/mti-electronics.webp',
+    //     images: [
+    //         '/projects/images/anahotel_1.png',
+    //         '/projects/images/anahotel_2.png',
+    //         '/projects/images/anahotel_3.png',
+    //     ],
+    // },
+    // {
+    //     title: 'ANA - Golden Week',
+    //     slug: 'goldenweek-ana',
+    //     client: 'All Nippon Airways',
+    //     techStack: ['Javascript', 'Adobe Experience Manager'],
+    //     thumbnail: '/projects/thumbnail/anagw_1.png',
+    //     longThumbnail: '/projects/thumbnail/anagw_1.png',
+    //     images: [
+    //         '/projects/images/anagw_1.png',
+    //         '/projects/images/anagw_2.png',
+    //         '/projects/images/anagw_3.png',
+    //         '/projects/images/anagw_4.png',
+    //     ],
+    //     liveUrl: 'https://www.ana.co.jp/ja/jp/domestic/theme/gw/',
+    //     year: 2024,
+    //     description: `Golden Week is a page to show the Available Tourism Location Spot to Customer who wants to visit Japan on Golden Week Holiday across Japan Archipelago`,
+    //     role: `As a frontend developer and Collaboration in agency Team: <br/>
+    //     - Built the frontend from scratch using HTML, CSS and Javascript.<br/>
+    //     - Work alongside Japanese Client throughout the project with Design Brief.<br/>
+    //     - Integrated parameter from Backend to display Available trips and Ticket Price using Adobe Experience Manager.<br/>
+    //     - Delivered a responsive, user-friendly interface in collaboration with the Japanese designer.`,
+    // },
+    // {
+    //     title: 'ANA - Aomori Travel',
+    //     slug: 'aomori',
+    //     client: 'All Nippon Airways',
+    //     techStack: ['Javascript', 'Adobe Experience Manager'],
+    //     thumbnail: '/projects/thumbnail/aomori_1.png',
+    //     longThumbnail: '/projects/long/property-pro.jpg',
+    //     images: [
+    //         '/projects/images/aomori_1.png',
+    //         '/projects/images/aomori_2.png',
+    //         '/projects/images/aomori_3.png',
+    //     ],
+    //     liveUrl:
+    //         'https://www.ana.co.jp/ja/jp/domestic/theme/here_we_go_japan/aomori/',
+    //     year: 2024,
+    //     description: `This is a page to show several Travel Locations in Aomori Japan`,
+    //     role: `As a frontend developer and Collaboration in agency Team: <br/>
+    //     - Built the frontend from scratch using HTML, CSS and Javascript.<br/>
+    //     - Work alongside Japanese Client throughout the project with Design Brief.<br/>
+    //     - Integrated parameter from Backend to display Available trips and Ticket Price using Adobe Experience Manager.<br/>
+    //     - Delivered a responsive, user-friendly interface in collaboration with the Japanese designer.`,
+    // },
     {
         title: 'PT Insinho Putra Pratama',
         slug: 'insinho',
